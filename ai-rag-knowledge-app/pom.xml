@@ -22,7 +22,7 @@
             <scope>test</scope>
         </dependency>
 
-        <dependency>
+        <!--<dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-openai-spring-boot-starter</artifactId>
         </dependency>
@@ -36,7 +36,7 @@
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-pgvector-store-spring-boot-starter</artifactId>
         </dependency>
-
+-->
         <dependency>
             <groupId>org.springframework.ai</groupId>
             <artifactId>spring-ai-ollama</artifactId>
@@ -79,12 +79,12 @@
 
         <dependency>
             <groupId>indi.wzy</groupId>
-            <artifactId>ai-rag-knowledgr-trigger</artifactId>
+            <artifactId>ai-rag-knowledge-trigger</artifactId>
         </dependency>
     </dependencies>
 
     <build>
-        <finalName>xfg-dev-tech-app</finalName>
+        <finalName>ai-rag-knowledge-app</finalName>
         <resources>
             <resource>
                 <directory>src/main/resources</directory>
@@ -120,7 +120,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>cn.bugstack.xfg.dev.tech.Application</mainClass>
+                    <mainClass>indi.wzy.Application</mainClass>
                     <layout>JAR</layout>
                 </configuration>
             </plugin>
