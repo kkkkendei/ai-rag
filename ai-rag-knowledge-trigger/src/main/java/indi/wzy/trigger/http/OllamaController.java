@@ -30,7 +30,7 @@ public class OllamaController implements IAIService {
     }
 
     /**
-     * http://localhost:8090/api/v1/ollama/generate?model=deepseek-r1:1.5b&message=hi
+     * http://localhost:8090/api/v1/ollama/generate?model=deepseek-r1:1.5b&message=1 plus 1
      */
     @RequestMapping(value = "/generate", method = RequestMethod.GET)
     @Override
@@ -39,7 +39,7 @@ public class OllamaController implements IAIService {
     }
 
     /**
-     * http://localhost:8090/api/v1/ollama/generateStream?model=deepseek-r1:1.5b&message=1+1
+     * http://localhost:8090/api/v1/ollama/generateStream?model=deepseek-r1:1.5b&message=1 plus 1
      */
     @RequestMapping(value = "/generateStream", method = RequestMethod.GET)
     @Override
