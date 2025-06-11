@@ -6,7 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
     username: wzy
     password: 5185021
-    url: jdbc:postgresql://47.122.26.159:15432/ai-rag
+    url: jdbc:postgresql://47.122.26.159:5432/springai
     type: com.zaxxer.hikari.HikariDataSource
     # hikari连接池配置
     hikari:
