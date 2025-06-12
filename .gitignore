@@ -36,3 +36,9 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# 排除所有日志文件
+*.log
+log/
+logs/
+data/log/
