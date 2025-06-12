@@ -46,7 +46,7 @@ public class RAGTest {
     private SimpleVectorStore simpleVectorStore;
 
     @Resource
-    PgVectorStore pgVectorStore;
+    private PgVectorStore pgVectorStore;
 
     /**
      * 上传文档到知识库
