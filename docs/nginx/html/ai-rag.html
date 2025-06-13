@@ -69,7 +69,7 @@
         addMessage('<span class="animate-pulse">▍</span>');
 
         // 构建API URL
-        const apiUrl = `http://localhost:8090/api/v1/ollama/generateStream?model=deepseek-r1:1.5b&message=${encodeURIComponent(message)}`;
+        const apiUrl = `http://localhost:8090/api/v1/ollama/generate_stream?model=deepseek-r1:1.5b&message=${encodeURIComponent(message)}`;
 
         // 使用EventSource接收流式响应
         const eventSource = new EventSource(apiUrl);
