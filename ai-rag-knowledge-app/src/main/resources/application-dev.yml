@@ -35,7 +35,7 @@ spring:
         model: nomic-embed-text
     openai:
       base-url: https://pro-share-aws-api.zcyai.com/
-      api-key:
+      api-key: sk-eEyfxptPgbfXd3Z164260740E0494161Bd8
       embedding-model: text-embedding-ada-002
     rag:
         embed: nomic-embed-text #nomic-embed-text、text-embedding-ada-002
