@@ -42,12 +42,12 @@ public class JGitTest {
     @Test
     public void test() throws Exception {
         // 这部分替换为你的
-        String repoURL = "";
-        String username = "";
+        String repoURL = "https://github.com/kkkkendei/ai-mcp";
+        String username = "kkkkendei";
         String password = "";
 
         String localPath = "./data/cloned-repo";
-        log.info("克隆路径：" + new File(localPath).getAbsolutePath());
+        log.info("克隆路径：{}", new File(localPath).getAbsolutePath());
 
         FileUtils.deleteDirectory(new File(localPath));
 
